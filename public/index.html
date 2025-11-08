@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- META TAGS OBRIGATÓRIAS-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+  <!--CSS DO BOOTSTRAP-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!--JAVA SCRIPT DO BOOTSTRAP-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  
+  <!--ICONS DO BOOTSTRAP-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  
+  <!--FONT DO PROJETO-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <title>Leia Comigo</title>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body onload="carregarLogo(); carregarFooter(); carregarCaroucel(); buscarDados();">
+
+  <nav class="navbar pb- navbar-expand-lg" id="nav1">
+    <!--LOGO NAV-->
+  </nav>
+
+  <!--CAROUCEL-->
+  <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" id="caroucel1">
+
+
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </div>
+
+
+  <!--CARDS-->
+  <div class="container mt-4" id="cards">
+    <!--TÍTULO CARD-->
+    <div class="titulos-Card" id="t-card-index"></div>
+
+
+    <!--LINHA-->
+    <div class="row g-4" id="row1">
+      <!--CARDS-->
+    </div>
+
+
+    <a href="formulario.html" class="btn btn-success mb-4">Nova publicação</a>
+
+
+  </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <!--FOOTER-->
+
+  <footer class="footer py-4">
+    <div class="container">
+      <div class="row" id="rowFooter">
+
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <!--JAVA SCRIPT-->
+  <script src="assets/scripts/app.js">
+    
+  </script>
+
+
+</body>
+
+</html>

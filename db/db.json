@@ -1,18 +1,342 @@
 {
-  "usuarios": [
+  "livros": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "titulo": "Take The Risk 2",
+      "autor": "Ben Carson",
+      "image": "assets/img/item1/capa1.jpg",
+      "descricaoInicial": "Ben Carson, MD, um renomado neurocirurgião...",
+      "descricao": "O autor do livro mostrado na imagem é Ben Carson, MD, um renomado neurocirurgião, escritor e palestrante motivacional. Conhecido mundialmente por suas contribuições na medicina, especialmente na neurocirurgia pediátrica, Carson foi o primeiro médico a realizar com sucesso a separação de gêmeos siameses unidos pela cabeça. Além de sua carreira médica, ele se tornou uma figura influente por suas reflexões sobre fé, coragem e tomada de decisões. No livro “Take the Risk”, ele compartilha lições de vida sobre como identificar, escolher e viver com riscos aceitáveis, incentivando o leitor a enfrentar desafios com sabedoria e confiança. Sua escrita combina experiências pessoais, princípios éticos e ensinamentos práticos, mostrando que o verdadeiro sucesso está em ousar com propósito e fé.'",
+      "imageDetalhes": [
+        {
+          "detalhes": "assets/img/item1/detalhes1.jpg",
+          "citacao": "\"A coragem não é a ausência do medo, mas a decisão de agir apesar dele.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item1/detalhes2.jpg",
+          "citacao": "\"O sucesso não é medido pelo quanto você sobe, mas por quantas pessoas.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item1/detalhes3.jpg",
+          "citacao": "\"Todo sonho grande começa com uma escolha simples: acreditar é possível.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item1/detalhes4.jpg",
+          "citacao": "\"Os riscos da vida são inevitáveis; o verdadeiro erro é deixar o medo decidir.\" — Ben Carson"
+        }
+      ],
+      "id": "1"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "2",
+      "image": "assets/img/item2/capa2.jpg",
+      "titulo": "Zero To One",
+      "autor": "Peter Thiel",
+      "descricaoInicial": "Peter Thiel, com colaboração de Blake Masters....",
+      "descricao": "'O autor do livro mostrado na imagem é Peter Thiel, com colaboração de Blake Masters. Peter Thiel é um empreendedor, investidor e pensador visionário, conhecido por ser um dos fundadores do PayPal e um dos primeiros investidores do Facebook. Reconhecido por suas ideias inovadoras sobre tecnologia e negócios, Thiel é uma das vozes mais influentes do Vale do Silício. Em “Zero to One”, ele apresenta uma visão provocadora sobre o futuro da inovação e do empreendedorismo, defendendo que o verdadeiro progresso ocorre quando criamos algo totalmente novo — passando de “zero a um”, e não apenas copiando o que já existe. O livro combina insights práticos, filosofia de negócios e reflexões estratégicas, incentivando empreendedores a pensarem de forma original e a construírem o futuro com ideias únicas e transformadoras.'",
+      "imageDetalhes": [
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "\"O futuro é feito por quem vê além do óbvio.\" - Peter Thiel"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes2.jpg",
+          "citacao": "\"Criar algo novo é ir de zero a um isso vale tudo.\" - Peter Thiel"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes3.jpg",
+          "citacao": "\"Grandes empresas começam com uma visão singular.\" - Peter Thiel"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes4.jpg",
+          "citacao": "\"O sucesso vem de ideias únicas e objetivas.\" - Peter Thiel"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "image": "assets/img/item3/capa3.jpg",
+      "titulo": "The Sorrows of Young Werther",
+      "autor": "Johann Wolfgang von Goethe",
+      "descricaoInicial": "Publicado originalmente em 1774, é uma das....",
+      "descricao": "O livro mostrado na imagem é \"The Sorrows of Young Werther\", escrito por Johann Wolfgang von Goethe. Publicado originalmente em 1774, é uma das obras mais marcantes do movimento romântico na literatura mundial. Goethe, considerado um dos maiores escritores da literatura alemã, combina nesta obra profundidade emocional, reflexão filosófica e sensibilidade artística. O romance conta a história de Werther, um jovem sensível e apaixonado que vive um amor impossível, mergulhando em um intenso conflito entre razão e emoção. Com sua escrita poética e introspectiva, Goethe explora temas como paixão, melancolia, individualismo e o sentido da existência, tornando o livro um retrato atemporal da alma humana e de seus dilemas mais profundos.",
+      "imageDetalhes": [
+        {
+          "detalhes": "assets/img/item3/detalhes1.jpg",
+          "citacao": "\"A dor que sinto agora é prova do amor verdadeiro que um dia vivi.\" — Johann Wolfgang von Goethe."
+        },
+        {
+          "detalhes": "assets/img/item3/detalhes2.jpg",
+          "citacao": "\"O coração é um abismo de desejos que nenhuma razão consegue conter.\" — Johann Wolfgang von Goethe"
+        },
+        {
+          "detalhes": "assets/img/item3/detalhes3.jpg",
+          "citacao": "\"Há momentos em que o silêncio fala mais do que qualquer palavra poderia dizer.\" — Johann Wolfgang von Goethe"
+        },
+        {
+          "detalhes": "assets/img/item3/detalhes4.jpg",
+          "citacao": "\"Quem ama com pureza não teme a dor, pois nela encontra a essência do amor.\" — Johann Wolfgang von Goethe"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "image": "assets/img/item4/capa4.jpg",
+      "titulo": "Graphic Design",
+      "autor": "Jens Müller e Julius Wiedemann",
+      "descricaoInicial": "\"Graphic Design\", publicado pela editora TASCHEN, uma das mais reconhecidas no...",
+      "descrica": "O livro mostrado na imagem é \"Graphic Design\", publicado pela editora TASCHEN, uma das mais reconhecidas no mundo das artes visuais e design. A obra, organizada por Jens Müller e Julius Wiedemann, é uma verdadeira enciclopédia visual que explora a evolução do design gráfico ao longo das décadas — neste volume, especificamente entre 1890 e 1959. O livro apresenta uma coleção rica de cartazes, logotipos, tipografias e projetos gráficos históricos, revelando como o design se desenvolveu como linguagem visual e cultural. É uma leitura essencial para designers, estudantes e entusiastas da comunicação visual, pois combina contexto histórico, referências visuais e análises críticas que ajudam a compreender o impacto do design na sociedade moderna. Mais do que um registro histórico, a obra inspira pela forma como mostra o poder do design em conectar ideias, estilos e emoções através do tempo.",
+      "imageDetalhes": [
+        {
+          "detalhes": "assets/img/item4/detalhes1.jpg",
+          "citacao": "\"O design não é o que você vê, mas o que faz os outros sentirem ao ver.\" — Jens Müller"
+        },
+        {
+          "detalhes": "assets/img/item4/detalhes2.jpg",
+          "citacao": "\"Paginas são oportunidade de transformar ideias.\" — Julius Wiedemann"
+        },
+        {
+          "detalhes": "assets/img/item4/detalhes3.jpg",
+          "citacao": "\"A simplicidade é o ponto mais alto da sofisticação visual para quem é designer.\" — Jens Müller"
+        },
+        {
+          "detalhes": "assets/img/item4/detalhes4.jpg",
+          "citacao": "\"Design é a arte de comunicar o invisível através do visível.\" — Julius Wiedemann"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "image": "assets/img/item5/capa5.jpg",
+      "titulo": "Good Vibes, Good Life",
+      "autor": "Vex King",
+      "descricaoInicial": "Good Vibes, Good Life”, escrito por Vex King. A obra tornou-se um best-seller internacional....",
+      "descricao": "O livro mostrado na imagem é \"Good Vibes, Good Life\", escrito por Vex King. A obra tornou-se um best-seller internacional por sua mensagem inspiradora sobre autocuidado, mentalidade positiva e crescimento pessoal. Vex King é um escritor, palestrante e influenciador motivacional que compartilha sua própria jornada de superação — de uma juventude difícil até se tornar uma voz influente no desenvolvimento pessoal. No livro, ele apresenta lições práticas sobre como cultivar boas vibrações, melhorar a autoestima, lidar com a negatividade e manifestar uma vida mais equilibrada e feliz. Com uma linguagem leve e acessível, “Good Vibes, Good Life” combina espiritualidade moderna, psicologia positiva e autoconhecimento, oferecendo um guia poderoso para quem busca transformar seus pensamentos e viver de forma mais plena e autêntica.",
+      "imageDetalhes": [
+        {
+          "detalhes": "assets/img/item5/detalhes1.jpg",
+          "citacao": "\"A energia que você transmite é a mesma que atrai para a sua vida.\" — Vex King"
+        },
+        {
+          "detalhes": "assets/img/item5/detalhes2.jpg",
+          "citacao": "\"Você não pode controlar tudo, mas pode escolher como reagir a tudo.\" — Vex King"
+        },
+        {
+          "detalhes": "assets/img/item5/detalhes3.jpg",
+          "citacao": "\"Ame-se o bastante para não aceitar menos do que você merece na vida.\" — Vex King"
+        },
+        {
+          "detalhes": "assets/img/item5/detalhes4.jpg",
+          "citacao": "\"A mudança começa quando você decide acreditar no seu próprio valor.\" — Vex King"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "image": "assets/img/item6/capa6.jpg",
+      "titulo": "Entre as Montanhas do Pensar",
+      "autor": "Clara Almeida",
+      "descricaoInicial": "Clara Almeida leva o leitor em uma jornada de autodescoberta e reflexão, explorando...",
+      "descricao": "Em Entre as Montanhas do Pensar, a autora Clara Almeida leva o leitor em uma jornada de autodescoberta e reflexão, explorando as complexidades da mente humana e a conexão com a natureza. Usando uma narrativa poética e introspectiva, o livro faz uma metáfora da viagem do espírito humano em busca de paz interior e da verdade, assim como a viagem de um explorador nas vastas florestas e montanhas. Através da fusão de sonhos e realidades, a história revela que, muitas vezes, o maior caminho a percorrer é o que se dá dentro de nós mesmos.",
+      "imageDetalhes": [
+        {
+          "detalhes": "assets/img/item1/detalhes4.jpg",
+          "citacao": "\"A mente é um território selvagem, onde o desconhecido encontra abrigo e o medo se torna uma sombra."
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "Não basta olhar para as estrelas; é preciso ouvir o que elas sussurram quando o vento toca a alma."
+        },
+        {
+          "detalhes": "assets/img/item1/detalhes3.jpg",
+          "citacao": "Às vezes, o caminho mais longo que percorremos é o de aceitar que estamos sozinhos em nossa própria companhia."
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "território selvagem, onde o desconhecido encontra abrigo e o medo se torna uma sombra, mas também um guia."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "image": "assets/img/item7/capa7.jpg",
+      "titulo": "Conservation Is Life",
+      "autor": "Wild Nature Institute",
+      "descricaoInicial": "O livro apresenta imagens marcantes e mensagens que incentivam práticas sustentáveis, destacando...",
+      "descricao": "\"Conservation Is Life” é uma obra visual e inspiradora que convida o leitor a refletir sobre a importância da preservação ambiental e a conexão entre o ser humano e a natureza. O livro apresenta imagens marcantes e mensagens que incentivam práticas sustentáveis, destacando o valor da vida selvagem e o equilíbrio ecológico. Uma leitura essencial para quem busca compreender o papel da humanidade na proteção do planeta.",
+      "imageDetalhes": [
+        {
+          "detalhes": "assets/img/item1/detalhes4.jpg",
+          "citacao": "\"A coragem não é a ausência do medo, mas a decisão de agir apesar dele.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "\"O sucesso não é medido pelo quanto você sobe, mas por quantas pessoas você ajuda a subir com você.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item1/detalhes3.jpg",
+          "citacao": "\"Todo sonho grande começa com uma escolha simples: acreditar que é possível.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "\"Os riscos da vida são inevitáveis; o verdadeiro erro é deixar o medo decidir por você.\" — Ben Carson"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "image": "assets/img/item8/capa8.jpg",
+      "titulo": "Poetry",
+      "autor": "Alexa Hilsong",
+      "descricaoInicial": "Com uma escrita leve e envolvente, a obra convida o leitor a mergulhar nas próprias...",
+      "descricao": "\"O livro mostrado na imagem é “Good Vibes, Good Life\", escrito por Vex King. A obra tornou-se um best-seller internacional por sua mensagem inspiradora sobre autocuidado, mentalidade positiva e crescimento pessoal. Vex King é um escritor, palestrante e influenciador motivacional que compartilha sua própria jornada de superação — de uma juventude difícil até se tornar uma voz influente no desenvolvimento pessoal. No livro, ele apresenta lições práticas sobre como cultivar boas vibrações, melhorar a autoestima, lidar com a negatividade e manifestar uma vida mais equilibrada e feliz. Com uma linguagem leve e acessível, “Good Vibes, Good Life” combina espiritualidade moderna, psicologia positiva e autoconhecimento, oferecendo um guia poderoso para quem busca transformar seus pensamentos e viver de forma mais plena e autêntica.",
+      "imageDetalhes": [
+        {
+          "detalhes": "assets/img/item1/detalhes4.jpg",
+          "citacao": "\"A coragem não é a ausência do medo, mas a decisão de agir apesar dele.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "\"O sucesso não é medido pelo quanto você sobe, mas por quantas pessoas você ajuda a subir com você.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item1/detalhes3.jpg",
+          "citacao": "\"Todo sonho grande começa com uma escolha simples: acreditar que é possível.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "\"Os riscos da vida são inevitáveis; o verdadeiro erro é deixar o medo decidir por você.\" — Ben Carson"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "image": "assets/img/item9/capa9.jpg",
+      "titulo": "The Passion Within",
+      "autor": "Robert Will",
+      "descricaoInicial": "Com uma escrita envolvente e reflexiva, o livro convida o leitor a redescobrir seus sonhos...",
+      "descricao": "\"The Passion Within” é uma obra inspiradora que explora a força interior e o poder transformador das emoções humanas. Com uma escrita envolvente e reflexiva, o livro convida o leitor a redescobrir seus sonhos, compreender seus sentimentos e viver com autenticidade. Uma leitura que desperta a paixão pela vida e o desejo de se reconectar com o próprio propósito.",
+      "imageDetalhes": [
+        {
+          "detalhes": "assets/img/item1/detalhes4.jpg",
+          "citacao": "\"A coragem não é a ausência do medo, mas a decisão de agir apesar dele.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "\"O sucesso não é medido pelo quanto você sobe, mas por quantas pessoas você ajuda a subir com você.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item1/detalhes3.jpg",
+          "citacao": "\"Todo sonho grande começa com uma escolha simples: acreditar que é possível.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "\"Os riscos da vida são inevitáveis; o verdadeiro erro é deixar o medo decidir por você.\" — Ben Carson"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "image": "assets/img/item10/capa10.jpg",
+      "titulo": "The Law",
+      "autor": "William H. Bastiat",
+      "descricaoInicial": "A obra questiona o papel do Estado e reflete sobre o equilíbrio entre direitos individuais...",
+      "descricao": "\"The Law” é um ensaio atemporal que analisa os princípios fundamentais da liberdade, justiça e responsabilidade social. A obra questiona o papel do Estado e reflete sobre o equilíbrio entre direitos individuais e coletivos. Um livro essencial para quem busca compreender os fundamentos da ética, da política e da verdadeira liberdade humana.",
+      "imageDetalhes": [
+        {
+          "detalhes": "assets/img/item1/detalhes4.jpg",
+          "citacao": "\"A coragem não é a ausência do medo, mas a decisão de agir apesar dele.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "\"O sucesso não é medido pelo quanto você sobe, mas por quantas pessoas você ajuda a subir com você.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item1/detalhes3.jpg",
+          "citacao": "\"Todo sonho grande começa com uma escolha simples: acreditar que é possível.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "\"Os riscos da vida são inevitáveis; o verdadeiro erro é deixar o medo decidir por você.\" — Ben Carson"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "image": "assets/img/item11/capa11.jpg",
+      "titulo": "Piensa como un artista",
+      "autor": "Will Gompertz",
+      "descricaoInicial": "Will Gompertz, crítico de arte renomado, ensina como aplicar o pensamento...",
+      "descricao": "\"Piensa como un artista” apresenta uma nova forma de ver o mundo por meio da criatividade. Will Gompertz, crítico de arte renomado, ensina como aplicar o pensamento artístico em todas as áreas da vida. Com histórias inspiradoras e exemplos práticos, o autor mostra que todos têm um artista dentro de si — basta aprender a pensar e criar como um.",
+      "imageDetalhes": [
+        {
+          "detalhes": "assets/img/item1/detalhes4.jpg",
+          "citacao": "\"A coragem não é a ausência do medo, mas a decisão de agir apesar dele.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "\"O sucesso não é medido pelo quanto você sobe, mas por quantas pessoas você ajuda a subir com você.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item1/detalhes3.jpg",
+          "citacao": "\"Todo sonho grande começa com uma escolha simples: acreditar que é possível.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "\"Os riscos da vida são inevitáveis; o verdadeiro erro é deixar o medo decidir por você.\" — Ben Carson"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "image": "assets/img/item12/capa12.jpg",
+      "titulo": "Python",
+      "autor": "Mark Lutz",
+      "descricaoInicial": "Publicado pela O’Reilly, o livro combina teoria sólida com exemplos práticos, abordando desde conceitos básicos...",
+      "descricao": "\"Python” é um guia abrangente para programadores que desejam dominar uma das linguagens mais poderosas e versáteis da atualidade. Publicado pela O’Reilly, o livro combina teoria sólida com exemplos práticos, abordando desde conceitos básicos até tópicos avançados. Ideal para quem busca desenvolver aplicações eficientes e compreender a lógica por trás da programação moderna.",
+      "imageDetalhes": [
+        {
+          "detalhes": "assets/img/item1/detalhes4.jpg",
+          "citacao": "\"A coragem não é a ausência do medo, mas a decisão de agir apesar dele.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "\"O sucesso não é medido pelo quanto você sobe, mas por quantas pessoas você ajuda a subir com você.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item1/detalhes3.jpg",
+          "citacao": "Todo sonho grande começa com uma escolha simples: acreditar que é possível.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item2/detalhes1.jpg",
+          "citacao": "\"Os riscos da vida são inevitáveis; o verdadeiro erro é deixar o medo decidir por você.\" — Ben Carson"
+        }
+      ]
+    },
+    {
+      "id": "e11b",
+      "titulo": "Take The Risk 3",
+      "autor": "Marcos testando",
+      "image": "assets/img/item1/capa1.jpg",
+      "descricaoInicial": "Olá seja bem-vindo ao teste de criação de publicação de livro.",
+      "descricao": "Pequeno texto, para testa a criação da publicação.",
+      "imageDetalhes": [
+        {
+          "detalhes": "assets/img/item1/detalhes1.jpg",
+          "citacao": "\"A coragem não é a ausência do medo, mas a decisão de agir apesar dele.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item1/detalhes2.jpg",
+          "citacao": "\"O sucesso não é medido pelo quanto você sobe, mas por quantas pessoas.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item1/detalhes1.jpg",
+          "citacao": "\"Todo sonho grande começa com uma escolha simples: acreditar é possível.\" — Ben Carson"
+        },
+        {
+          "detalhes": "assets/img/item1/detalhes4.jpg",
+          "citacao": "\\\"A coragem não é a ausência do medo, mas a decisão de agir apesar dele.\\\" — Ben Carson"
+        }
+      ]
     }
   ]
 }
