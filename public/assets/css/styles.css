@@ -4,12 +4,15 @@
 body{
     background-color: #d5ccc7;
     font-family: 'Montserrat', sans-serif !important;
+    
 }
 
 .footer{
+   
     margin-top: 40px;
     background-color: #261c1a;
     color: #d5ccc7;
+    
 }
 
 .author-box{
@@ -88,4 +91,20 @@ input, textarea{
     border-style: solid !important;
     border-color:#261c1a !important;
     border-width: 2px !important;
+}
+
+.nav-link{
+    color: #d5ccc7;
+    font-family: 'Montserrat', sans-serif !important;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.nav-link:hover{
+    color: #d5ccc7;
+    font-family: 'Montserrat', sans-serif !important;
+    text-decoration: none;
+    font-weight: 600;
+
 }

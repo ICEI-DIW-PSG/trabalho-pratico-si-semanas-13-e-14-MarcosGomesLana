@@ -16,8 +16,12 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 **Print da tela com a implementação**
 
-<< Coloque aqui uma breve explicação da implementação feita nessa etapa>>
+A implementação feita nessa etapa, foi aplicada com o objetivo de disponibilizar aos usuários a tela de apresentação de dados, que poderá ser acessada através do menu “Dados” ao lado direito do logo. 
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+Dessa forma, a tela de apresentação, disponibilizara um gráfico de barras onde o usuário irá visualizar o ano de lançamento de cada título de livro, até a data mais recente, assim formando uma linha do tempo para consultas sobre o ano de publicação das obras, que é atualizada a cada operação CRUD. 
 
-<<  COLOQUE A IMAGEM TELA 2 AQUI >>
+IMAGEM 1, DADOS EM ESTADO INICIAL
+![IMAGEM 1, DADOS EM ESTADO INICIAL](/public/assets/img/testes_requisições/DadosA.JPG)
+
+IMAGEM 2, DADOS ATUALIZADOS APÓS MUDANÇA DE INFORMAÇÕES DAS PUBLICAÇÕES
+![IMAGEM 2, DADOS ATUALIZADOS APÓS MUDANÇA DE INFORMAÇÕES DAS PUBLICAÇÕES](/public/assets/img/testes_requisições/DadosB.JPG)

@@ -99,9 +99,30 @@ const carousel = [
 
 
 function carregarLogo() {
-    let nav = document.getElementById("nav1");
+    let nav = document.getElementById("navbar");
     let strNav =
-        `    <a class="navbar-brand" href="index.html"><img src="${logo}" width="140px" class="logo-nav"></a>
+        `    
+
+    <div class="container-fluid">
+  <a class="navbar-brand" href="index.html">
+    <img src="${logo}" alt="Logo" class="img-fluid logo-nav" style="max-height:48px;">
+  </a>
+
+  <button class="navbar-toggler" type="button" 
+          data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" 
+          aria-label="Alternar navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ms-auto">
+      <a class="nav-link active ml-4" aria-current="page" href="apresentacao.html">Dados</a>
+    </div>
+  </div>
+</div>
+
+            
 
     `;
 
@@ -315,6 +336,7 @@ function iniciarEdicaoGET() {
           
             document.getElementById('titulo').value = livro.titulo || '';
             document.getElementById('autor').value = livro.autor || '';
+            document.getElementById('data-lancamento').value = livro.dataLancamento || '';
             document.getElementById('image').value = livro.image || '';
             document.getElementById('descricaoInicial').value = livro.descricaoInicial || '';
             document.getElementById('descricao').value = livro.descricao || '';
@@ -412,15 +434,18 @@ function renderizarDetalhes(dados) {
 
     detalhesContainer.innerHTML = '';
     detalhesCardContainer.innerHTML = '';
-    
+    let = partesData = dados.dataLancamento.split('-');
+    partesData.reverse();
+    let dateLancamento = partesData.join('/');
 
     let strDados = `
         <div class="col-md-4 d-flex align-self-start">
             <img src="${dados.image}" class="detalhes-img-top mb-5" alt="Capa de livro">
         </div>
         <div class="col-md-8 mb-4 mt-8 align-self-start" style="text-align: left;">
-            <h2>${dados.titulo}</h2>
-            <h4>Autor: ${dados.autor}</h4>
+            <h2 style="color:#261c1a"><strong>${dados.titulo}</strong></h2>
+            <h5>Autor: ${dados.autor}</h5>
+            <h5>Data de Lançamento: ${dateLancamento}</h5>
             <p>${dados.descricao}</p>
         </div>`;
 
@@ -456,6 +481,91 @@ function renderizarDetalhes(dados) {
 
     }
 }
+
+
+
+
+
+// Grafíco
+
+function renderizarGrafico(graf) {
+    
+
+        let tituloG = [];
+        let anoG = [];
+        
+        graf.forEach(item => {
+            tituloG.push(item.titulo);
+            let ano = item.dataLancamento.slice(0,4);
+            anoG.push(parseInt(ano));
+
+
+            
+        });
+
+        const ctx = document.getElementById('graficoLivros');
+
+        new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: tituloG.map(item => item),
+            datasets: [{
+            label: 'Ano de lançamento',
+            data: anoG.map(itemA => itemA),
+            backgroundColor: '#261c1a',
+            borderColor: '#ffffffff',
+            borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y', // transforma em barras horizontais
+            scales: {
+            x: {
+                beginAtZero: false,
+                title: { display: true, text: 'Ano de Lançamento' }
+            },
+            y: {
+                title: { display: true, text: 'Título do Livro' }
+            }
+            }
+        }
+        });
+
+       
+         
+    
+}
+
+function buscarGrafico(){
+    fetch('http://localhost:3000/livros')
+
+    .then(response => {
+
+        if (!response.ok){
+
+            throw new Error(`Erro HTTP, status: ${response.status}`);
+
+        }
+
+        return response.json();
+
+    })
+
+    .then(livros => {
+
+        renderizarGrafico(livros);
+
+    })
+
+    .catch(error => {
+        console.error("Não foi possivel caregar os dados dos livros: ", error);
+    })
+}
+
+
+
+        
+    
 
 
 
