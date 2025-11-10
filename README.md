@@ -9,10 +9,10 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Marcos Gomes de Oliveira Lana
+- Matricula: 899071
+- Proposta de projeto escolhida: Pessoas e Produções
+- Breve descrição sobre seu projeto: Este projeto tem como proposta divulgar grandes obras e conteúdos de autores de livros , além de oferecer um serviço de consulta sobre títulos ou trabalhos relacionados a eles.
 
 **Print da tela com a implementação**
 
